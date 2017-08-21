@@ -15,6 +15,8 @@
 		2C568B8B1F4A777C0073C344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C568B891F4A777C0073C344 /* LaunchScreen.storyboard */; };
 		2C568B961F4A777D0073C344 /* RuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C568B951F4A777D0073C344 /* RuntimeTests.m */; };
 		2C568BA11F4A777D0073C344 /* RuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C568BA01F4A777D0073C344 /* RuntimeUITests.m */; };
+		2C568BB01F4A77FB0073C344 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C568BAF1F4A77FB0073C344 /* Person.m */; };
+		2C568BB31F4A8DDB0073C344 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C568BB21F4A8DDB0073C344 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2C568B9C1F4A777D0073C344 /* RuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C568BA01F4A777D0073C344 /* RuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeUITests.m; sourceTree = "<group>"; };
 		2C568BA21F4A777D0073C344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C568BAE1F4A77FB0073C344 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2C568BAF1F4A77FB0073C344 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2C568BB11F4A8DDB0073C344 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		2C568BB21F4A8DDB0073C344 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2C568B7F1F4A777C0073C344 /* AppDelegate.m */,
 				2C568B811F4A777C0073C344 /* ViewController.h */,
 				2C568B821F4A777C0073C344 /* ViewController.m */,
+				2C568BAE1F4A77FB0073C344 /* Person.h */,
+				2C568BAF1F4A77FB0073C344 /* Person.m */,
+				2C568BB11F4A8DDB0073C344 /* Student.h */,
+				2C568BB21F4A8DDB0073C344 /* Student.m */,
 				2C568B841F4A777C0073C344 /* Main.storyboard */,
 				2C568B871F4A777C0073C344 /* Assets.xcassets */,
 				2C568B891F4A777C0073C344 /* LaunchScreen.storyboard */,
@@ -275,6 +285,8 @@
 			files = (
 				2C568B831F4A777C0073C344 /* ViewController.m in Sources */,
 				2C568B801F4A777C0073C344 /* AppDelegate.m in Sources */,
+				2C568BB31F4A8DDB0073C344 /* Student.m in Sources */,
+				2C568BB01F4A77FB0073C344 /* Person.m in Sources */,
 				2C568B7D1F4A777C0073C344 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
